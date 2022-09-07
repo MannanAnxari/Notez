@@ -15,7 +15,7 @@ export default function Signup(props) {
             console.log("Confirm Password is Not Match!");
         }
         else {
-            const res = await fetch(`http://localhost:45/api/auth/createuser`, {
+            const res = await fetch(`https://notez-mannananxari.vercel.app/api/auth/createuser`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

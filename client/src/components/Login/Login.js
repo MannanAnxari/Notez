@@ -11,7 +11,7 @@ export default function Login(props) {
     }
     const handelLogin = async (e) => {
         e.preventDefault();
-        const res = await fetch(`http://localhost:45/api/auth/login`, {
+        const res = await fetch(`https://notez-mannananxari.vercel.app/api/auth/login`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

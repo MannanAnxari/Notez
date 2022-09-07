@@ -2,7 +2,7 @@ import NoteContext from './noteContext'
 import { useState } from 'react';
 
 export default function NoteState(props) {
-    const host = "http://localhost:45"
+    const host = "https://notez-mannananxari.vercel.app/"
     const notesInitial = [];
 
 
